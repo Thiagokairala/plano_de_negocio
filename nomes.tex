@@ -1,35 +1,14 @@
 %%------------------------------------------------------------------------------
 %%----------------Variaveis para o LaTeX no Relatório---------------------------
 \newcommand{\universidade}{Universidade de Bras\'ilia - Campus Gama}
-\newcommand{\hell}{Desenho de Software}		%nome do arquivo
-% \renewcommand{\autor}{\rafael}							%criador do pdf - só observado nos detalhes do pdf
-\newcommand{\assunto}{Especificações Suplementares - Chamada Parlamentar}			%Nome do experimento
+\newcommand{\hell}{DessTech}		%nome do arquivo
+\newcommand{\assunto}{Plano de Negócio}			%Nome do experimento
 \newcommand{\ver}{\assunto}						%numeração do experimento
-\newcommand{\professora}{Milene}
-\newcommand{\curso}{ENGENHARIA DE SOFTWARE}
-\newcommand{\turma}{A}
 
 %%------------------------------------------------------------------------------
 %%------------------------Detalhes para serem revistos--------------------------
 \newcommand{\keyw}{Desenho de Software, \assunto}	%Keywords
 \newcommand{\entrega}{\today}		%data de entrega do relatório
-
-
-%%------------------------------------------------------------------------------
-%%------------------------------Nomes-------------------------------------------
-%\newcommand{\luiz}{\href{http://lattes.cnpq.br/1109478949026592}{Luiz Fernando Gomes de Oliveira}}	%Para link
-\newcommand{\rafael}{{Eduardo Brasil Martins}}					%Sem link
-\newcommand{\thiago}{{Rafael Fazzolino}}
-\newcommand{\thabata}{{Thabata Granja}}
-\newcommand{\eduardo}{{Thiago kairala}}
-\newcommand{\rafaelmatricula}{11/0115104}
-\newcommand{\thiagomatricula}{12/0042916}
-\newcommand{\eduardomatricula}{09/01*****}
-\newcommand{\thabatamatricula}{12/00*****}
-\newcommand{\erafael}{brasil.eduardo1@gmail.com}
-\newcommand{\ethiago}{fazzolino29@gmail.com}
-\newcommand{\ethabata}{thabataemail@gmail.com}
-\newcommand{\eeduardo}{thiagor.kairala@gmail.com}
 
 %----------------------Foto e bibliografia do(s) autor(es)----------------------
 %%------------------------------------------------------------------------------
@@ -47,23 +26,13 @@
 %%------------------------------------------------------------------------------
 %%-----------------------------Organização--------------------------------------
 \makeatletter
-\@ifclassloaded{scrartcl}% Slide
-{
-	\newcommand{\names}{\rafael}
-	\newcommand{\namecapa}{\fazzolino \\ \fazzolino}
-	%\newcommand{\allmatriculas}{\luizmatricula,\canelamatricula}
-}
-{
-	\newcommand{\names}{¹\rafael~-~\rafaelmatricula\\²\thiago~-~\thiagomatricula\\³\eduardo~-~\eduardomatricula\\ \thabata~-~\thabatamatricula}
-	\newcommand{\emails}{¹\erafael\\²\ethiago\\³\eeduardo\\ \ethabata}
-}
+
 \makeatother
 
 
 \newcommand{\cor}{vermelho}
 \newcommand{\comprimeto}{20m}
 \title{\ver}
-\author{\names}
 \date{\entrega}
 
 
